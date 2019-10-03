@@ -26,6 +26,16 @@ a {
   text-decoration: none;
 }
 
+/* visited link */
+a:visited {
+  color: #75f25e;
+}
+
+/* mouse over link */
+a:hover {
+  color: #29f0f0;
+}
+
 li {
   color: #dd52f2;
     list-style-type: square;
