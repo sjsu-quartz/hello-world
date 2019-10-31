@@ -2,16 +2,16 @@
 
 function gotData(data) {
   // need to retrieve firebase data with val() method
-console.log(data)
+
   allData = data.val();
-  console.log(allData);
-  // allDataArray = Object.values(allData);
-  // // numberPersonals = allDataArray.length;
-  // console.log(allDataArray);
-  //
-  //
-  // // create array of keys (post ids)
-  // keys = Object.keys(allData);
+  console.log("allData is " + allData);
+  allDataArray = Object.values(allData);
+  // numberPosts = allDataArray.length;
+  console.log("allDataArray is " +  allDataArray);
+
+
+  // create array of keys (post ids)
+  keys = Object.keys(allData);
 
 
   // to reassign post object values > this was for making "seekingBusinessPartner" change to "humanSeeksComputer"
@@ -24,7 +24,7 @@ console.log(data)
   //   }
   // });
 
-  // createPosts();
+  createPosts();
 }
 
 function errData(err) {

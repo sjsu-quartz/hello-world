@@ -11,6 +11,7 @@ let ask;
 let database;
 let allData;
 let allDataArray;
+let keys;
 
 function setup() {
   var canvas = createCanvas(400, 300);
@@ -57,7 +58,7 @@ function setup() {
 database = firebase.database();
 
 
-let ref = database.ref('personals');
+let ref = database.ref('posts');
 ref.on('value', gotData, errData);
 
 }
@@ -124,6 +125,18 @@ function FBreply(data) {
   }
 }
 
+function createPosts(){
+
+  // create post for each entry
+  // note this allows for filtering
+  allDataArray.forEach(function(postNode) {
+createP(postNode.post).parent('#output').class('femmebot');
+  });
+
+  // let posts = createP(modReply);
+  // posts.parent('#output');
+  // posts.class('femmebot');
+}
 
 function clearDiv(elementID) {
   document.getElementById(elementID).innerHTML = "";
