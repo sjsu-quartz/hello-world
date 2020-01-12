@@ -34,31 +34,30 @@
 <body>
 
   <!-- Navigation -->
-  <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
+      <!-- <a class="navbar-brand" href="index.html">Start Bootstrap</a> -->
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="#upcoming">Upcoming events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="#past">Past Events</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="post.html">Sample Post</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
-  </nav> -->
+  </nav>
 
   <!-- Page Header -->
   <header class="masthead" style="background-color: #000;">
@@ -81,7 +80,7 @@
   <!-- Main Content -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-8 col-md-10 mx-auto" id="upcoming">
         <div class="post-preview my-5">
 
           <h1> Upcoming Events </h1>
@@ -109,7 +108,7 @@
         </div> -->
       </div>
       <!-- BREAK  -->
-      <div class="col-lg-8 col-md-10 mx-auto mt-3">
+      <div class="col-lg-8 col-md-10 mx-auto mt-3" id="past">
         <div class="post-preview my-5">
 
           <h1> Past events </h1>
@@ -200,8 +199,8 @@
               </p>
             </div>
           </div>
-          <div class="row mt-5">
-            <div class="col-8">
+          <div class="row mt-5 mx-auto">
+            <div class="col-sm-8">
               <h3 class="post-subtitle">
                 Student presentations:
               </h3>
@@ -210,20 +209,20 @@
                 <figcaption class="figure-caption">Gailan Sabin Gray (MFA Photography 2018) explores the nature of queer aesthetics, experience, and origins. His practice delves into the idea of Queer Mythos and Phantasies.</figcaption>
               </figure>
             </div>
-            <div class="col-4">
+            <div class="col-sm-4">
               <figure class="figure">
                 <img src="images/anna_phan.jpg" class="figure-img img-fluid rounded" alt="">
                 <figcaption class="figure-caption">Anna Phan’s (BFA Pictorial Arts) personal work aims to illustrate the beauty of Asian women and femmes without the influence of the fetishization found in mainstream media.</figcaption>
               </figure>
 
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
               <figure class="figure">
                 <img src="images/carla_torres.jpg" class="figure-img img-fluid rounded" alt="">
                 <figcaption class="figure-caption">Carla Torres’ (BFA Photography) work centers around the intersection of identity and community.</figcaption>
               </figure>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
               <figure class="figure">
                 <img src="images/noa_sesmas.jpg" class="figure-img img-fluid rounded" alt="">
                 <figcaption class="figure-caption">Noa Sesmas (BFA Photography) uses photography to create a dialogue with the viewer about their identity across gender, culture, and race.</figcaption>
@@ -405,7 +404,7 @@
 
     </div>
 
-    <div class="col mx-auto my-5">
+    <div class="col mx-auto my-5" id="about">
 
       <div class="post-preview">
 
@@ -415,8 +414,7 @@
             <h1 class="post-title">About</h1>
             <hr>
             <p class="post-meta">
-              QuArtz, the Queer Arts Event Series, is curated by <a href="https://larkvcr.com/">Lark Alder</a>, the 2018-2020 Faculty Fellow at the SJSU PRIDE Center. The series aims to build visibility for LGBTQ+ issues and community through arts
-              programming while cultivating connections and support amongst LGBTQ+ students and local artists. </p><p>We also host weekly QuArtz meetups at the PRIDE Center for students to create and share their art amongst peers. In Spring 2020, we will be collaborating on a creative toolkit for engaging in difficult questions and connecting across difference to build resilient communities.
+              QuArtz, the Queer Arts Event Series, aims to build visibility for LGBTQ+ issues and community through arts programming while cultivating connections and support amongst LGBTQ+ students and local artists. Events are curated by <a href="https://larkvcr.com/">Lark Alder</a>, the 2018-2020 Faculty Fellow at the SJSU PRIDE Center.</p><p>QuArtz also hosts weekly meetups at the PRIDE Center for students to create and share their art amongst peers. In Spring 2020, we will be collaborating on a creative toolkit for engaging in difficult questions and connecting across difference to build resilient communities.
             </p>
             <p class="post-meta">
               <em>All events are wheelchair accessible, individuals requiring other accommodations should contact the SJSU PRIDE Center at (408) 924-6157 or sjsupride@gmail.com.</em>
@@ -443,7 +441,8 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <img src="images/SJSU_PRIDE_spartan.png" class="fimg-fluid rounded" style="max-width: 80px;" alt="Photo of blue material that says 'decolonize joy and sex'">
+              <a href="http://www.sjsu.edu/pride/">
+              <img src="images/SJSU_PRIDE_spartan.png" class="fimg-fluid rounded" style="max-width: 80px;" alt="PRIDE Center Logo: Spartan head with rainbow hair"></a>
             </li>
             <li class="list-inline-item">
               <a href="https://www.facebook.com/sjsupride/">
@@ -454,7 +453,7 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted"><3</p>
+          <!-- <p class="copyright text-muted">Creative Commons <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"/></a></p> -->
         </div>
       </div>
     </div>
